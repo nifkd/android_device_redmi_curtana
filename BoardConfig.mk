@@ -95,6 +95,9 @@ TARGET_USES_MKE2FS := true
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 
+# Telephony
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Treble
 BOARD_VNDK_VERSION := current
 
