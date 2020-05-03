@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_picasso.mk
+    $(LOCAL_DIR)/lineage_curtana.mk
+    
+COMMON_LUNCH_CHOICES := \
+    lineage_curtana-eng \
+    lineage_curtana-userdebug \
+    lineage_curtana-user
